@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Flight API Automation Suite">
+    <test name="Passenger Service API Tests">
+        <classes>
+            <class name="com.flightbooking.tests.AuthenticationTest"/>
+            <class name="com.flightbooking.tests.PassengerServiceTest"/>
+        </classes>
+    </test>
+</suite>

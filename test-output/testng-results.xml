@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-13T11:49:10 IST" name="Flight API Automation Suite" finished-at="2025-08-13T11:49:20 IST" duration-ms="9948">
+    <groups>
+    </groups>
+    <test started-at="2025-08-13T11:49:10 IST" name="Passenger Service API Tests" finished-at="2025-08-13T11:49:20 IST" duration-ms="9948">
+      <class name="com.flightbooking.tests.PassengerServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:17 IST" name="setUp" finished-at="2025-08-13T11:49:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTestData()[pri:0, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:17 IST" name="setupTestData" finished-at="2025-08-13T11:49:17 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method signature="testAddPassengerValid()[pri:1, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:17 IST" name="testAddPassengerValid" description="Add new passenger with valid data" finished-at="2025-08-13T11:49:17 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPassengerValid -->
+        <test-method signature="testAddPassengerInvalid()[pri:2, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:17 IST" name="testAddPassengerInvalid" description="Add passenger with invalid data" finished-at="2025-08-13T11:49:17 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPassengerInvalid -->
+        <test-method signature="testViewPassengerByValidId()[pri:3, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:17 IST" name="testViewPassengerByValidId" description="View passenger by valid ID" finished-at="2025-08-13T11:49:18 IST" depends-on-methods="com.flightbooking.tests.PassengerServiceTest.testAddPassengerValid" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerByValidId -->
+        <test-method signature="testViewPassengerByInvalidId()[pri:4, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:18 IST" name="testViewPassengerByInvalidId" description="View passenger by invalid ID" finished-at="2025-08-13T11:49:18 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerByInvalidId -->
+        <test-method signature="testViewPassengerList()[pri:5, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:18 IST" name="testViewPassengerList" description="View all passengers list" finished-at="2025-08-13T11:49:19 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerList -->
+        <test-method signature="testViewPassengerByNameMobile()[pri:6, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:19 IST" name="testViewPassengerByNameMobile" description="View passenger by name and mobile" finished-at="2025-08-13T11:49:19 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerByNameMobile -->
+        <test-method signature="testViewPassengerByInvalidNameMobile()[pri:7, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:19 IST" name="testViewPassengerByInvalidNameMobile" description="View passenger by invalid name and mobile" finished-at="2025-08-13T11:49:19 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerByInvalidNameMobile -->
+        <test-method signature="testDeletePassengerByValidId()[pri:8, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:19 IST" name="testDeletePassengerByValidId" description="Delete passenger by valid ID" finished-at="2025-08-13T11:49:19 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePassengerByValidId -->
+        <test-method signature="testDeletePassengerByInvalidId()[pri:9, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:19 IST" name="testDeletePassengerByInvalidId" description="Delete passenger by invalid ID" finished-at="2025-08-13T11:49:19 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePassengerByInvalidId -->
+        <test-method signature="testAPIResponseTime()[pri:10, instance:com.flightbooking.tests.PassengerServiceTest@77888435]" started-at="2025-08-13T11:49:19 IST" name="testAPIResponseTime" description="Verify API response time performance" finished-at="2025-08-13T11:49:20 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAPIResponseTime -->
+      </class> <!-- com.flightbooking.tests.PassengerServiceTest -->
+      <class name="com.flightbooking.tests.AuthenticationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.flightbooking.tests.AuthenticationTest@4562e04d]" started-at="2025-08-13T11:49:10 IST" name="setUp" finished-at="2025-08-13T11:49:10 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidTokenGeneration()[pri:1, instance:com.flightbooking.tests.AuthenticationTest@4562e04d]" started-at="2025-08-13T11:49:10 IST" name="testValidTokenGeneration" description="Verify successful token generation with valid credentials" finished-at="2025-08-13T11:49:16 IST" duration-ms="5467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidTokenGeneration -->
+        <test-method signature="testInvalidClientId()[pri:2, instance:com.flightbooking.tests.AuthenticationTest@4562e04d]" started-at="2025-08-13T11:49:16 IST" name="testInvalidClientId" description="Verify token generation fails with invalid client_id" finished-at="2025-08-13T11:49:16 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidClientId -->
+        <test-method signature="testInvalidClientSecret()[pri:3, instance:com.flightbooking.tests.AuthenticationTest@4562e04d]" started-at="2025-08-13T11:49:16 IST" name="testInvalidClientSecret" description="Verify token generation fails with invalid client_secret" finished-at="2025-08-13T11:49:16 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidClientSecret -->
+        <test-method signature="testTokenGenerationViaUtils()[pri:4, instance:com.flightbooking.tests.AuthenticationTest@4562e04d]" started-at="2025-08-13T11:49:16 IST" name="testTokenGenerationViaUtils" description="Verify token generation using AuthUtils" finished-at="2025-08-13T11:49:17 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTokenGenerationViaUtils -->
+      </class> <!-- com.flightbooking.tests.AuthenticationTest -->
+    </test> <!-- Passenger Service API Tests -->
+  </suite> <!-- Flight API Automation Suite -->
+</testng-results>
