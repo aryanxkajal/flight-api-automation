@@ -129,6 +129,4 @@ mvn test -DsuiteXmlFile=testng.xml
 
 ---
 
-> 🎯 Designed for scalability and ease of maintenance — ready to evolve with your API testing needs!
-
 
